@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0%;
+    border: 2px solid blueviolet;
+    margin: 0%;
+ }
+ ul>li{list-style: none;
+ vertical-align: top;
+ border: 3px solid mediumvioletred;
+ padding: 5px;}
+ ul>li img{width: 100px;}
+ ul>li>*{display: inline-block;}
+ button{
+    font-size: 20px;
+    color: black;
+    float: right;
+    margin-top: 30px;
+ }
+ .saluda{
+    background: gray;
+    border-radius: 2px;
+ }
+ .saluda:hover{font-size: 50px;}
+ .borrar{
+    background: red;
+ }
