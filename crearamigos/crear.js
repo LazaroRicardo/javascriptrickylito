@@ -91,7 +91,7 @@ parseamigos(amigos);
 
 
 //procesar
-function saludaramigos(classBtn,attrib) {
+function saludaramigos(classBtn, attrib) {
     let saludarbtns = document.getElementsByClassName(classBtn);
     for (let index = 0; index < saludarbtns.length; index++) {
         saludarbtns[index].onclick = function () {
@@ -100,4 +100,4 @@ function saludaramigos(classBtn,attrib) {
     }
 }
 
-saludaramigos('saluda','data-value')
+saludaramigos('saluda', 'data-value')
