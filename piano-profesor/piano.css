@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ 
+ section{
+    margin: 0 auto;
+}
+ 
+ section div{display: inline-block; width: 40px; height: 150px; border: 1px solid;}
+ section div.semi{
+    position: absolute;
+    background-color: black;
+    margin-left: -20px;
+    width: 30px;
+    height: 100px;
+}
