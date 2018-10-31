@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1>Mis >Amigos</h1>
+
+        <h2>Facebook</h2>
+        <ul id="amigosface"></ul>
+        <button id="cargarbtnface">Cargar Amigos Facebook</button>
+    
+        <h2>Spotfy</h2>
+        <ul id="amigosspoti"></ul>
+        <button id="cargarbtnspoti">Cargar Amigos Spotify</button>
+        
+    </div>
+    
+    <div>
+        <h1>Agregar Amigo</h1>
+        <section id=section>
+            <div id="mensaje" class="error esconder">Usuario y contraseña no válidos</div>
+            
+            <form id="loginForm" action="" novalidate>
+                <div>
+                    <input id="usuario" type="text" minlength="3" maxlength="20" placeholder="Usuario" pattern="[a-zA-Z]*" required >
+                    <div id="errorusuario" class="error esconder">Completa el usuario con el formato correcto</div>
+                </div>
+                <div>
+                    <input id="edad" type="number" placeholder="Edad" required >
+                    <div id="erroredad" class="error esconder">Completa la edad con el formato correcto</div>
+                </div>
+                <div>
+                    <button id="accederbtn">Añadir</button>
+                </div>
+            </form>
+        </section>
+        
+    </div>
+
+</body>
+<script src="./jquery-3.3.1.min.js"></script>
+<script src="./script.js"></script>
+</html>
