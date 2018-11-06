@@ -1,74 +1,41 @@
 let amigos = [
-
-
-    {
-        id: 32143,
-        nombre: 'Ricardo',
-        edad: '41',
-        shoinfo: function () {
+    {id: 32143, nombre: 'Ricardo', edad: '41',shoinfo: function () {
             return '[' + this.id + ']' + this.nombre + ',' + this.edad;
         }
     },
 
-    {
-        id: 32144,
-        nombre: 'Carlos',
-        edad: '22', shoinfo: function () {
+    {id: 32144,nombre: 'Carlos',edad: '22', shoinfo: function () {
             return '[' + this.id + ']' + this.nombre + ',' + this.edad;
         }
     },
 
-    {
-        id: 32145,
-        nombre: 'adela',
-        edad: '20',
-        shoinfo: function () {
+    {id: 32145,nombre: 'adela',edad: '20',shoinfo: function () {
             return '[' + this.id + ']' + this.nombre + ',' + this.edad;
         }
     },
 
-    {
-        id: 32146,
-        nombre: 'marta',
-        edad: '25',
-        shoinfo: function () {
+    {id: 32146,nombre: 'marta',edad: '25',shoinfo: function () {
             return '[' + this.id + ']' + this.nombre + ',' + this.edad;
         }
     },
 
-    {
-        id: 32147,
-        nombre: 'elena',
-        edad: '23',
-        shoinfo: function () {
+    {id: 32147,nombre: 'elena',edad: '23',shoinfo: function () {
             return '[' + this.id + ']' + this.nombre + ',' + this.edad;
         }
     },
 
-    {
-        id: 32148,
-        nombre: 'carmen',
-        edad: '21',
-        shoinfo: function () {
+    {id: 32148,nombre: 'carmen',edad: '21',shoinfo: function () {
             return '[' + this.id + ']' + this.nombre + ',' + this.edad;
         }
     },
 
-    {
-        id: 32149,
-        nombre: 'rocio',
-        edad: '32',
-        shoinfo: function () {
+    {id: 32149,nombre: 'rocio',edad: '32',shoinfo: function () {
             return '[' + this.id + ']' + this.nombre + ',' + this.edad;
         }
 
     },
 
-    {
-        id: 32150,
-        nombre: 'selena',
-        edad: '22',
-        shoinfo: function () {
+    {id: 32150,nombre: 'selena',edad: '22',shoinfo: function () {
             return '[' + this.id + ']' + this.nombre + ',' + this.edad;
         }
     },
